@@ -17,17 +17,20 @@
    <img src="https://img.shields.io/badge/-Prisma-000?style=for-the-badge&logo=prisma&logoColor=11d852" alt="Prisma" />
   </p>
 <br>
-<p align="center">Currently, Reth has over <a src="https://rethbot.website">20 commands</a> and many more are coming soon!</p>
+<p align="center">Currently, Reth has over <a href="https://rethbot.website">20 commands</a> and many more are coming soon!</p>
 
 <br>
 
 <h2>👥 Social media:</h2>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/fxliperibeiro/"
-    ><img src="https://img.shields.io/badge/-Website-000?style=for-the-badge&logo=probot&logoColor=11d852" alt="Website"
+  <a href="https://rethbot.website"
+    ><img src="https://img.shields.io/badge/-Website-000?style=for-the-badge&logo=probot&logoColor=11d852" alt="Website do Reth"
   />
   <a href="https://www.instagram.com/fxliperibeiro"
     ><img src="https://img.shields.io/badge/-Instagram-000?style=for-the-badge&logo=instagram&logoColor=11d852" alt="Instagram"
+  />
+ <a href="https://linkedin.com/in/fxliperibeiro"
+    ><img src="https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=11d852" alt="LinkedIn"
   />
 </p>
