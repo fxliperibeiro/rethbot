@@ -7,7 +7,7 @@
   <img src="https://i.imgur.com/LcmsGjI.png" width="30" height="30" alt="Reth skull" />
 </h1>
 
-<p align="center">The back-end of Reth was built using the <a src="https://github.com/WhiskeySockets/Baileys">Baileys</a> library and various other technologies listed below:</p>
+<p align="center">The back-end of Reth was built using the <a href="https://github.com/WhiskeySockets/Baileys">Baileys</a> library and various other technologies listed below:</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/-JavaScript-000?style=for-the-badge&logo=javascript&logoColor=11d852" alt="JavaScript" />
