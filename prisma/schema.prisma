@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+// USER MODELS
+
+model AIMessage {
+  id      String  @id @default(auto()) @map("_id") @db.ObjectId
+  User    User?   @relation(fields: [userId], references: [id])
+  userId  String? @db.ObjectId
+  role    String
+  content String
+}
+
+model UserCommand {
+  id          String     @id @default(auto()) @map("_id") @db.ObjectId
+  Analytics   Analytics? @relation(fields: [analyticsId], references: [id])
+  analyticsId String?    @db.ObjectId
+  name        String
+  usedAt      DateTime
+}
+
+model Analytics {
+  id           String        @id @default(auto()) @map("_id") @db.ObjectId
+  commandsUsed UserCommand[]
+  user         User          @relation(fields: [userId], references: [id])
+  userId       String        @unique @db.ObjectId // relation scalar field (used in the `@relation` attribute above)
+}
+
+model Premium {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String   @unique @db.ObjectId // relation scalar field (used in the `@relation` attribute above)
+  active      Boolean
+  purchasedAt DateTime
+  expiresAt   DateTime
+}
+
+model User {
+  id         String      @id @default(auto()) @map("_id") @db.ObjectId
+  jid        String      @unique
+  createdAt  DateTime    @default(now())
+  aiMessages AIMessage[]
+  premium    Premium?
+  analytics  Analytics?
+  groups     String[]
+}

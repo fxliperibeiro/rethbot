@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "@rocketseat/eslint-config/node"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 80,
+        "tabWidth": 2,
+        "singleQuote": true,
+        "trailingComma": "all",
+        "endOfLine": "crlf",
+        "arrowParens": "always",
+        "semi": false
+      }
+    ]
+  }
+}

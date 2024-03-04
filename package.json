@@ -1,0 +1,60 @@
+{
+  "name": "rethbot",
+  "version": "3.2.0",
+  "description": "Reth is a WhatsApp bot! It can create amazing stickers, play any music directly on WhatsApp, generate images through artificial intelligence, and much more!",
+  "main": "./build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxliperibeiro/rethbot.git"
+  },
+  "author": "fxliperibeiro",
+  "scripts": {
+    "dev": "tsx ./src/index.ts",
+    "lint": "eslint ./src --ext .ts --fix",
+    "build": "tsc ./src"
+  },
+  "keywords": [
+    "whatsapp bot",
+    "chatbot"
+  ],
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "@types/node": "^20.11.5",
+    "@types/node-cron": "^3.0.11",
+    "@types/sbd": "^1.0.5",
+    "@types/usetube": "^2.1.2",
+    "prisma": "^5.10.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@fxliperibeiro/eslint-config": "^1.0.3",
+    "@hapi/boom": "^10.0.1",
+    "@iamtraction/google-translate": "^2.0.1",
+    "@prisma/client": "^5.10.2",
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.5",
+    "canvas": "^2.11.2",
+    "chalk": "4.1.2",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.2",
+    "eslint": "^8.56.0",
+    "file-type": "^18.7.0",
+    "form-data": "^4.0.0",
+    "node-cron": "^3.0.3",
+    "node-webpmux": "^3.2.0",
+    "openai": "^4.25.0",
+    "pino": "^8.17.2",
+    "qrcode-terminal": "^0.12.0",
+    "sbd": "^1.0.19",
+    "sharp": "^0.32.6",
+    "simpl.db": "^2.13.0",
+    "systeminformation": "^5.21.24",
+    "tsx": "^3.14.0",
+    "upscaler": "1.0.0-beta.18",
+    "usetube": "^2.2.7",
+    "ytdl-core": "^4.11.5"
+  }
+}
