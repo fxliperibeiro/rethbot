@@ -17,7 +17,7 @@
    <img src="https://img.shields.io/badge/-Prisma-000?style=for-the-badge&logo=prisma&logoColor=11d852" alt="Prisma" />
   </p>
 <br>
-<p align="center">Currently, Reth has over <a href="https://rethbot.website">20 commands</a> and many more are coming soon!</p>
+<p align="center">Currently, Reth has over <a href="https://rethbot.website/commands">20 commands</a> and many more are coming soon!</p>
 
 <br>
 
